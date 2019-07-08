@@ -16,9 +16,17 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("DOOM", "Video-games", 50, 100),
-        ("Dune", "books", 10, 100),
-        ("Bladerunner", "Movies", 15, 100),
-        ("Plantasa LP", "Music", 20, 100);
+VALUES ("DOOM", "Video-games", 49.99, 100),
+        ("Quake", "Video-games", 9.99, 100),
+        ("StarCraft", "Video-games", 19.99, 100),
+        ("Dune", "books", 9.99, 100),
+        ("Neuromancer", "books", 29.99, 100),
+        ("Logan's Run", "books", 29.99, 100),
+        ("Bladerunner", "Movies", 14.99, 100),
+        ("The Thing", "Movies", 14.99, 100),
+        ("Alien", "Movies", 14.99, 100),
+        ("Plantasia LP", "Music", 24.99, 100);
+        ("Drab Majesty LP", "Music", 24.99, 100);
+        ("Lust for Youth LP", "Music", 24.99, 100);
 
 SELECT * FROM products;
